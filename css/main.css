@@ -476,6 +476,10 @@ button.navbar-toggle:hover {
 	min-height: 100vh;
 }
 
+.secondSection {
+	padding-top: 0vh;
+}
+
 /*desktop*/
 @media (min-width: 969px){
 	section {
