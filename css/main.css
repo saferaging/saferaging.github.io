@@ -5,7 +5,8 @@
 /*increases the height of the navbar*/
 .navbar {
 	height: 75px;
-	background-color: #fff;
+	/*background-color: #f7a707;*/
+	background-color: #f7b546;
 }
 
 .container {
@@ -67,26 +68,39 @@ ul.nav.navbar-nav {
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	border-bottom: 5px solid #f5f5f5;
+/*	border-bottom: 5px solid #f5f5f5;*/
+	border-bottom: none;
 }
 
 
-/*active link styles*/
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-	/*background-color: #fff3e2;*/
-	background-color: #fff;
-	border: 1px solid #edb158;
-	color: #edb158;
+/*active link styles desktop*/
+@media (min-width: 769px) {
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		/*background-color: #fff3e2;*/
+		background-color: transparent;
+		border: 1px solid #fff;
+		color: #fff;
+	}
+}
+
+/*active link styles mobile*/
+@media (max-width: 768px) {
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		/*background-color: #fff3e2;*/
+		background-color: transparent;
+		border: 1px solid #f7a707;
+		color: #f7a707;
+	}
 }
 
 /*desktop links*/
 @media (min-width: 769px) {
 	.navbar .nav > li > a {
-		color: #edb158;
+		color: #fff;
 	}
 
 	.navbar .nav > li > a:hover {
-		color: #edb158;
+		color: #fff;
 	}
 }
 
@@ -123,41 +137,47 @@ ul.nav.navbar-nav {
 
 /*makes lines orange*/
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color:#edb158;
+	background-color:#fff;
 }
 
 /*keeps lines orange on hover*/
 .navbar-inverse .navbar-toggle .icon-bar:hover {
-	background-color:#edb158;
+	background-color:#fff;
 }
 
 button.navbar-toggle.collapsed {
 	height: 55px;
-	background-color: #fff;
+	background-color: transparent;
+	border: none;
 }
 
 /*keeps background white on hover*/
 button.navbar-toggle.collapsed:hover {
-	background-color: #fff;
+	background-color: transparent;
+	border: none;
 	height: 55px;
 }
 
 button.navbar-toggle {
-	background-color: #fff;
+	background-color: transparent;
+	border: none;
 	height: 55px;
 } 
 
 button.navbar-toggle:hover {
-	background-color: #fff;
+	background-color: transparent;
+	border: none;
 	height: 55px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-	background-color: #fff;
+	background-color: transparent;
+	border: none;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #fff;
+	background-color: transparent;
+	border: none;
 	font-size:12px;
 }
 
@@ -371,11 +391,11 @@ button.navbar-toggle:hover {
 .learnMore {
 	background-color: #fff3e2;
 	padding: 2px 3px 2px 3px;
-	color: #edb158;
+	color: #777;
 }
 
 .learnMore > a{
-	color: #edb158;
+	color: #777;
 	text-decoration: none;
 }
 
