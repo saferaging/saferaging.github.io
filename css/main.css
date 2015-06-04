@@ -78,7 +78,8 @@ ul.nav.navbar-nav {
 	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 		/*background-color: #fff3e2;*/
 		background-color: transparent;
-		border: 1px solid #fff;
+		/*border: 1px solid #fff;*/
+		border-bottom: 2px solid #fff;
 		color: #fff;
 	}
 }
