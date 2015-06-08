@@ -5,7 +5,7 @@
 /*increases the height of the navbar*/
 .navbar {
 	height: 75px;
-	background-color: #f6b728;
+	background-color: #FFAB26;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 
@@ -256,8 +256,8 @@ button.navbar-toggle:hover {
 	.body {
 		font-family: "Roboto Slab", "Andale Mono", serif;
 		font-weight: 300;
-		font-size: 13px;
-		line-height: 24px;
+		font-size: 14px;
+		line-height: 26px;
 		letter-spacing: 1px;
 		text-align: center;
 		color: #777;
