@@ -5,8 +5,8 @@
 /*increases the height of the navbar*/
 .navbar {
 	height: 75px;
-	/*background-color: #f7a707;*/
-	background-color: #f7b546;
+	background-color: #f6b728;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 
 .container {
@@ -27,7 +27,7 @@
 
 /*vertically centers the links, changes link font and color*/
 .navbar .nav > li > a {
-	color: #edb158;
+	color: #FFB300;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 300;
@@ -50,7 +50,7 @@ ul.nav.navbar-nav {
 
 /*color and font for main site title*/
 .navbar-inverse .navbar-brand {
-	color: #edb158;
+	color: #FFB300;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 40px;
 	font-weight: 300;
@@ -58,7 +58,7 @@ ul.nav.navbar-nav {
 }
 
 .navbar-inverse .navbar-brand:hover {
-	color: #edb158;
+	color: #FFB300;
 }
 
 
@@ -89,8 +89,9 @@ ul.nav.navbar-nav {
 	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 		/*background-color: #fff3e2;*/
 		background-color: transparent;
-		border: 1px solid #f7a707;
-		color: #f7a707;
+		/*border: 1px solid #FFB300;*/
+		color: #FFB300;
+		text-decoration: underline;
 	}
 }
 
@@ -108,7 +109,7 @@ ul.nav.navbar-nav {
 /*mobile links*/
 @media (max-width: 768px) {
 	.navbar .nav > li > a {
-		color: #edb158;
+		color: #FFB300;
 		font-size: 14px;
 		letter-spacing: 1px;
 		line-height: 22px;
@@ -116,7 +117,7 @@ ul.nav.navbar-nav {
 	}
 
 	.navbar .nav > li > a:hover {
-		color: #edb158;
+		color: #FFB300;
 	}
 }
 
@@ -209,7 +210,7 @@ button.navbar-toggle:hover {
 /*header text desktop*/
 @media (min-width: 769px) {
 	h1 {
-		color: #edb158;
+		color: #FFB300;
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-size: 30px;
 		font-weight: 300;
@@ -223,9 +224,9 @@ button.navbar-toggle:hover {
 /*header text mobile*/
 @media (max-width: 768px) {
 	h1 {
-		color: #edb158;
+		color: #FFB300;
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
-		font-size: 20px;
+		font-size: 22px;
 		font-weight: 300;
 		letter-spacing: 2px;
 		margin-top: 60px;
@@ -255,7 +256,7 @@ button.navbar-toggle:hover {
 	.body {
 		font-family: "Roboto Slab", "Andale Mono", serif;
 		font-weight: 300;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 24px;
 		letter-spacing: 1px;
 		text-align: center;
@@ -265,7 +266,7 @@ button.navbar-toggle:hover {
 }
 
 .body a {
-	color: #edb158;
+	color: #FFB300;
 }
 
 
@@ -336,6 +337,232 @@ button.navbar-toggle:hover {
 
 
 
+/**
+ * STORYBOARD IMAGE SIZES
+ */
+
+
+/**
+ * STORYBOARD OUTER WRAPPER
+ */
+.storyOut {
+	height: 275px;
+}
+
+.storyOut3 {
+	height: 375px;
+}
+
+/**
+ * STORYBOARD IMAGE 1
+ */
+@media (min-width: 770px) {
+	.storyIn1 {
+		background-image: url('../img/storyboard/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+@media (max-width: 769px) and (min-width: 545px){
+	.storyIn1 {
+		background-image: url('../img/storyboard/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 55% auto;
+	}
+
+}
+
+@media (max-width: 544px) and (min-width: 415px){
+	.storyIn1 {
+		background-image: url('../img/storyboard/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 414px) {
+	.storyIn1 {
+		background-image: url('../img/storyboard/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+
+/**
+ * STORYBOARD IMAGE 2
+ */
+@media (min-width: 770px) {
+	.storyIn2 {
+		background-image: url('../img/storyboard/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+@media (max-width: 769px) and (min-width: 545px){
+	.storyIn2 {
+		background-image: url('../img/storyboard/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 55% auto;
+	}
+
+}
+
+@media (max-width: 544px) and (min-width: 415px){
+	.storyIn2 {
+		background-image: url('../img/storyboard/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 414px) {
+	.storyIn2 {
+		background-image: url('../img/storyboard/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+/**
+ * STORYBOARD IMAGE 3
+ */
+@media (min-width: 770px) {
+	.storyIn3 {
+		background-image: url('../img/storyboard/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+@media (max-width: 769px) and (min-width: 545px){
+	.storyIn3 {
+		background-image: url('../img/storyboard/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 55% auto;
+	}
+
+}
+
+@media (max-width: 544px) and (min-width: 415px){
+	.storyIn3 {
+		background-image: url('../img/storyboard/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 414px) {
+	.storyIn3 {
+		background-image: url('../img/storyboard/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+/**
+ * STORYBOARD IMAGE 4
+ */
+@media (min-width: 770px) {
+	.storyIn4 {
+		background-image: url('../img/storyboard/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+@media (max-width: 769px) and (min-width: 545px){
+	.storyIn4 {
+		background-image: url('../img/storyboard/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 55% auto;
+	}
+
+}
+
+@media (max-width: 544px) and (min-width: 415px){
+	.storyIn4 {
+		background-image: url('../img/storyboard/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 414px) {
+	.storyIn4 {
+		background-image: url('../img/storyboard/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		margin-top: -30px;
+		background-size: 100% auto;
+	}
+}
+
+
 
 /**
  * STORYBOARD SECTION STYLES
@@ -346,6 +573,7 @@ button.navbar-toggle:hover {
 	.storyImg {
 		text-align: right;
 		padding-top: 30px;
+		overflow: hidden;
 	}
 }
 
@@ -354,6 +582,7 @@ button.navbar-toggle:hover {
 	.storyImg {
 		text-align: center;
 		padding-top: 15px;
+		overflow: hidden;
 	}
 }
 
@@ -413,7 +642,7 @@ button.navbar-toggle:hover {
  */
 
 .modal-title {
-	color: #edb158;
+	color: #FFB300;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
@@ -435,7 +664,7 @@ button.navbar-toggle:hover {
 }
 
 .orange{
-	color: #edb158;
+	color: #FFB300;
 	font-weight: 400;
 }
 
@@ -458,7 +687,7 @@ button.navbar-toggle:hover {
 .btn-default:hover {
 	background-color: #fff;
 	border-color: #ccc;
-	color: #edb158;
+	color: #FFB300;
 	font-family: "Roboto Slab", "Andale Mono", serif;
 	font-weight: 300;
 	font-size: 14px;
