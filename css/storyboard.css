@@ -1,9 +1,4 @@
 /**
- * STORYBOARD IMAGE SIZES
- */
-
-
-/**
  * STORYBOARD OUTER WRAPPER
  */
 .storyOut {
@@ -39,7 +34,6 @@
 		margin-top: -30px;
 		background-size: 55% auto;
 	}
-
 }
 
 @media (max-width: 544px) and (min-width: 415px){
@@ -144,7 +138,6 @@
 		margin-top: -30px;
 		background-size: 55% auto;
 	}
-
 }
 
 @media (max-width: 544px) and (min-width: 415px){
@@ -196,7 +189,6 @@
 		margin-top: -30px;
 		background-size: 55% auto;
 	}
-
 }
 
 @media (max-width: 544px) and (min-width: 415px){
@@ -273,8 +265,8 @@
 		letter-spacing: 1px;
 		text-align: center;
 		color: #777;
-		padding-top: 15px;
-		padding-bottom: 60px;
+		padding-top: 0px;
+		padding-bottom: 150px;
 	}
 }
 
@@ -289,7 +281,7 @@
  * SAFER AGING STORYBOARD IMAGES
  */
 
- .storyOutAge {
+.storyOutAge {
 	height: 275px;
 }
 
@@ -538,10 +530,10 @@
 
 
 /**
- * SAFER AGING STORYBOARD IMAGES
+ * SAFER CLASSROOM STORYBOARD IMAGES
  */
 
- .storyOutClass {
+.storyOutClass {
 	height: 275px;
 }
 
