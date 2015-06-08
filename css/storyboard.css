@@ -277,3 +277,387 @@
 		padding-bottom: 60px;
 	}
 }
+
+
+
+
+
+
+
+
+/**
+ * SAFER AGING STORYBOARD IMAGES
+ */
+
+ .storyOutAge {
+	height: 275px;
+}
+
+
+@media (min-width: 1200px) {
+	.storyIn5 {
+	 	background-image: url('../img/aging/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+	.storyIn5 {
+	 	background-image: url('../img/aging/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 50% auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 601px){
+	.storyIn5 {
+	 	background-image: url('../img/aging/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 450px){
+	.storyIn5 {
+	 	background-image: url('../img/aging/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 90% auto;
+	}
+}
+
+
+@media (max-width: 449px){
+	.storyIn5 {
+	 	background-image: url('../img/aging/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.storyIn6 {
+	 	background-image: url('../img/aging/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 60% auto;
+	 }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.storyIn6 {
+	 	background-image: url('../img/aging/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 42% auto;
+	 }
+}
+
+@media (max-width: 991px) and (min-width: 601px) {
+	.storyIn6 {
+	 	background-image: url('../img/aging/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 55% auto;
+	 }
+}
+
+@media (max-width: 600px) and (min-width: 450px) {
+	.storyIn6 {
+	 	background-image: url('../img/aging/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 75% auto;
+	 }
+}
+
+@media (max-width: 449px) {
+	.storyIn6 {
+	 	background-image: url('../img/aging/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	 }
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+	.storyIn7 {
+	 	background-image: url('../img/aging/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 65% auto;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.storyIn7 {
+	 	background-image: url('../img/aging/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 45% auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 601px) {
+	.storyIn7 {
+	 	background-image: url('../img/aging/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 60% auto;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 450px) {
+	.storyIn7 {
+	 	background-image: url('../img/aging/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 80% auto;
+	}
+}
+
+@media (max-width: 449px) {
+	.storyIn7 {
+	 	background-image: url('../img/aging/3.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.storyIn8 {
+	 	background-image: url('../img/aging/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 60% auto;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+	.storyIn8 {
+	 	background-image: url('../img/aging/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 45% auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 601px){
+	.storyIn8 {
+	 	background-image: url('../img/aging/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 60% auto;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 450px){
+	.storyIn8 {
+	 	background-image: url('../img/aging/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 80% auto;
+	}
+}
+
+
+@media (max-width: 449px){
+	.storyIn8 {
+	 	background-image: url('../img/aging/4.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	}
+}
+
+
+
+
+
+
+
+
+/**
+ * SAFER AGING STORYBOARD IMAGES
+ */
+
+ .storyOutClass {
+	height: 275px;
+}
+
+
+@media (min-width: 1200px) {
+	.storyIn9 {
+	 	background-image: url('../img/classroom/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 75% auto;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+	.storyIn9 {
+	 	background-image: url('../img/classroom/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 50% auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 601px){
+	.storyIn9 {
+	 	background-image: url('../img/classroom/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 70% auto;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 450px){
+	.storyIn9 {
+	 	background-image: url('../img/classroom/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 90% auto;
+	}
+}
+
+
+@media (max-width: 449px){
+	.storyIn9 {
+	 	background-image: url('../img/classroom/1.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+	.storyIn10 {
+	 	background-image: url('../img/classroom/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 60% auto;
+	 }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.storyIn10 {
+	 	background-image: url('../img/classroom/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 42% auto;
+	 }
+}
+
+@media (max-width: 991px) and (min-width: 601px) {
+	.storyIn10 {
+	 	background-image: url('../img/classroom/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 55% auto;
+	 }
+}
+
+@media (max-width: 600px) and (min-width: 450px) {
+	.storyIn10 {
+	 	background-image: url('../img/classroom/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 75% auto;
+	 }
+}
+
+@media (max-width: 449px) {
+	.storyIn10 {
+	 	background-image: url('../img/classroom/2.png');
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 100% auto;
+	 }
+}

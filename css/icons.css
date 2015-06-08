@@ -2,42 +2,8 @@
  * ICON IMAGE STYLES
  */
 
-/*icons desktop*/
-@media (min-width: 769px) {
-	.icons {
-		text-align: center;
-		padding: 15px;
-		max-width: none;
-		max-height: none;
-	}
-}
-
-/*icons mobile*/
-@media (max-width: 768px) {
-	.icons {
-		text-align: right;
-		padding: 5px;
-		width: 50%;
-		height: 50%;
-	}
-}
-
-@media (max-width: 1169px) {
-	.leftIcon {
-		text-align: right;
-	}
-}
-
-@media (max-width: 1169px) {
-	.centerIcon {
-		text-align: center;
-	}
-}
-
-@media (max-width: 1169px) {
-	.rightIcon {
-		text-align: left;
-	}
+.BGcenter {
+	background-position: center !important;
 }
 
 @media (min-width: 769px) {
@@ -57,10 +23,6 @@
 		height: 65%;
 	}
 }
-
-
-
-
 
 
 
