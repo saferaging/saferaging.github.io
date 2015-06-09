@@ -403,3 +403,9 @@ button.navbar-toggle:hover {
 		padding-top: 9vh;
 	}
 }
+
+.teamImg {
+	width: 40%;
+	height: 40%;
+	padding-bottom: 5px;
+}
