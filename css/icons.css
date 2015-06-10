@@ -71,7 +71,7 @@
 	}
 }
 
-@media (max-width: 1199px) and (min-width: 768px){
+@media (max-width: 1199px) and (min-width: 992px){
 	.iconIn1 {
 		background-image: url('../img/icon1.png');
 		position: relative;
@@ -79,6 +79,18 @@
 		background-repeat: no-repeat;
 		height: inherit;
 		background-size: 30% auto;
+	}
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+	.iconIn1 {
+		background-image: url('../img/icon1.png');
+		position: relative;
+		background-position: right;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 40% auto;
 	}
 }
 
@@ -121,8 +133,8 @@
 
 
 
-/*
-@media (min-width: 770px) {
+
+@media (min-width: 1200px) {
 	.iconIn2 {
 		background-image: url('../img/icon2.png');
 		position: relative;
@@ -132,8 +144,8 @@
 		background-size: 90% auto;
 	}
 }
-*/
-@media (max-width: 1199px) and (min-width: 768px){
+
+@media (max-width: 1199px) and (min-width: 992px){
 	.iconIn2 {
 		background-image: url('../img/icon2.png');
 		position: relative;
@@ -141,6 +153,17 @@
 		background-repeat: no-repeat;
 		height: inherit;
 		background-size: 30% auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.iconIn2 {
+		background-image: url('../img/icon2.png');
+		position: relative;
+		background-position: left;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-size: 40% auto;
 	}
 }
 
