@@ -372,14 +372,15 @@ button.navbar-toggle:hover {
 }
 
 
-
-.firstSection {
-	min-height: 100vh;
+@media (min-width: 992px){
+	.firstSection {
+		min-height: 100vh;
+	}
 }
 
-@media (min-width: 770px){
+@media (min-width: 768px){
 	.secondSection {
-		padding-top: 5vh;
+		padding-top: 10vh;
 	}
 }
 
@@ -393,7 +394,7 @@ button.navbar-toggle:hover {
 /*tablets*/
 @media (max-width: 968px) and (min-width: 768px){
 	section {
-		padding-top: 18vh;
+		padding-top: 12vh;
 	}
 }
 

@@ -12,7 +12,7 @@
 /**
  * STORYBOARD IMAGE 1
  */
-@media (min-width: 770px) {
+@media (min-width: 768px) {
 	.storyIn1 {
 		background-image: url('../img/storyboard/1.png');
 		position: relative;
@@ -24,7 +24,7 @@
 	}
 }
 
-@media (max-width: 769px) and (min-width: 545px){
+@media (max-width: 767px) and (min-width: 545px){
 	.storyIn1 {
 		background-image: url('../img/storyboard/1.png');
 		position: relative;
@@ -64,7 +64,7 @@
 /**
  * STORYBOARD IMAGE 2
  */
-@media (min-width: 770px) {
+@media (min-width: 768px) {
 	.storyIn2 {
 		background-image: url('../img/storyboard/2.png');
 		position: relative;
@@ -76,7 +76,7 @@
 	}
 }
 
-@media (max-width: 769px) and (min-width: 545px){
+@media (max-width: 767px) and (min-width: 545px){
 	.storyIn2 {
 		background-image: url('../img/storyboard/2.png');
 		position: relative;
@@ -116,7 +116,7 @@
 /**
  * STORYBOARD IMAGE 3
  */
-@media (min-width: 770px) {
+@media (min-width: 768px) {
 	.storyIn3 {
 		background-image: url('../img/storyboard/3.png');
 		position: relative;
@@ -128,7 +128,7 @@
 	}
 }
 
-@media (max-width: 769px) and (min-width: 545px){
+@media (max-width: 767px) and (min-width: 545px){
 	.storyIn3 {
 		background-image: url('../img/storyboard/3.png');
 		position: relative;
@@ -167,7 +167,7 @@
 /**
  * STORYBOARD IMAGE 4
  */
-@media (min-width: 770px) {
+@media (min-width: 768px) {
 	.storyIn4 {
 		background-image: url('../img/storyboard/4.png');
 		position: relative;
@@ -179,7 +179,7 @@
 	}
 }
 
-@media (max-width: 769px) and (min-width: 545px){
+@media (max-width: 767px) and (min-width: 545px){
 	.storyIn4 {
 		background-image: url('../img/storyboard/4.png');
 		position: relative;
