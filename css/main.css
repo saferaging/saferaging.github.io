@@ -3,16 +3,31 @@
  */
 
 /*increases the height of the navbar*/
-.navbar {
-	height: 75px;
-	background-color: #FFAB26;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+@media (min-width: 768px) {
+	.navbar {
+		height: 75px;
+		background-color: #FFAB26;
+	}
 }
 
-.container {
-	height: 75px;
+@media (max-width: 767px) {
+	.navbar {
+		height: 51px;
+		background-color: #FFAB26;
+	}
 }
 
+@media (min-width: 768px) {
+	.container {
+		height: 75px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		height: 51px;
+	}
+}
 
 
 
@@ -35,15 +50,33 @@
 	line-height: 0px;
 }
 
-ul.nav.navbar-nav {
-	height: 75px;
-	margin-top: 20px;
+@media (min-width: 768px) {
+	ul.nav.navbar-nav {
+		height: 75px;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	ul.nav.navbar-nav {
+		height: 51px;
+		margin-top: 20px;
+	}
 }
 
 /*vertically centers the main site title*/
-.navbar-brand {
-	height: 75px;
-	line-height: 45px;
+@media (min-width: 768px) {
+	.navbar-brand {
+		height: 75px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		height: 51px;
+		line-height: 45px;
+	}
 }
 
 
@@ -143,7 +176,7 @@ ul.nav.navbar-nav {
 }
 
 button.navbar-toggle.collapsed {
-	height: 55px;
+	height: 35px;
 	background-color: transparent;
 	border: none;
 }
@@ -152,19 +185,19 @@ button.navbar-toggle.collapsed {
 button.navbar-toggle.collapsed:hover {
 	background-color: transparent;
 	border: none;
-	height: 55px;
+	height: 35px;
 }
 
 button.navbar-toggle {
 	background-color: transparent;
 	border: none;
-	height: 55px;
+	height: 35px;
 } 
 
 button.navbar-toggle:hover {
 	background-color: transparent;
 	border: none;
-	height: 55px;
+	height: 35px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -181,10 +214,10 @@ button.navbar-toggle:hover {
 /*mobile nav menu*/
 @media (max-width: 767px) {
 	div#navbar.collapse.navbar-collapse {
-		height: 285%;
+		height: 400%;
 		overflow: auto;
 		background-color: #fff;
-		border-bottom: 5px solid #f5f5f5;
+		border-bottom: 1px solid #f5f5f5;
 		box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 	}
 }
@@ -199,9 +232,17 @@ button.navbar-toggle:hover {
  */
 
 /*smaller space between the first paragraph and the nav bar*/
- .negMargin{
- 	margin-top: -15px;
- }
+ @media (min-width: 768px) {
+	 .negMargin{
+	 	margin-top: -15px;
+	 }
+}
+
+ @media (max-width: 767px) {
+	 .negMargin{
+	 	margin-top: -50px;
+	 }
+}
 
 /*header text desktop*/
 @media (min-width: 768px) {
@@ -219,13 +260,13 @@ button.navbar-toggle:hover {
 /*header text mobile*/
 @media (max-width: 767px) {
 	h1 {
-		color: #FFA000;
+		color: #FFB300;
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
-		font-size: 24px;
+		font-size: 20px;
 		font-weight: 300;
 		letter-spacing: 2px;
 		margin-top: 60px;
-		line-height: 36px;
+		line-height: 1.6;
 		text-align: center;
 		margin-left: 2%;
 		margin-right: 2%;
@@ -251,8 +292,8 @@ button.navbar-toggle:hover {
 	.body {
 		font-family: "Roboto Slab", "Andale Mono", serif;
 		font-weight: 300;
-		font-size: 16px;
-		line-height: 27px;
+		font-size: 13px;
+		line-height: 1.7;
 		letter-spacing: 1px;
 		text-align: center;
 		color: #777;
@@ -270,13 +311,13 @@ button.navbar-toggle:hover {
 
 
 .learnMore {
-	background-color: #fff3e2;
-	padding: 2px 3px 2px 3px;
-	color: #777;
+	background-color: #FFAB26;
+	padding: 2px 7px 2px 7px;
+	color: #fff;
 }
 
 .learnMore > a{
-	color: #777;
+	color: #fff;
 	text-decoration: none;
 }
 
