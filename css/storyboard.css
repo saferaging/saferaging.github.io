@@ -246,7 +246,7 @@
 /*storyboard text desktop*/
 @media (min-width: 1200px) {
 	.storyText {
-		font-family: "Roboto Slab", "Andale Mono", serif;
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 24px;
@@ -262,7 +262,7 @@
 /*storyboard text tablet and mobile*/
 @media (max-width: 1199px) {
 	.storyText {
-		font-family: "Roboto Slab", "Andale Mono", serif;
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-weight: 300;
 		font-size: 13px;
 		line-height: 1.7;
@@ -277,7 +277,7 @@
 /*storyboard text desktop*/
 @media (min-width: 1200px) {
 	.storyTextLast {
-		font-family: "Roboto Slab", "Andale Mono", serif;
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 24px;
@@ -293,7 +293,7 @@
 /*storyboard text tablet and mobile*/
 @media (max-width: 1199px) {
 	.storyTextLast {
-		font-family: "Roboto Slab", "Andale Mono", serif;
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-weight: 300;
 		font-size: 13px;
 		line-height: 1.7;
