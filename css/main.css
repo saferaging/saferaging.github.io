@@ -141,7 +141,7 @@
 	.navbar .nav > li > a {
 		/*color: #FFB300;*/
 		color: #666;
-		font-size: 14px;
+		font-size: 15px;
 		letter-spacing: 1px;
 		line-height: 22px;
 		overflow: none;
@@ -284,7 +284,7 @@ button.navbar-toggle:hover {
 	.body {
 		font-family: "Lato", "Andale Mono", serif;
 		font-weight: 300;
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 24px;
 		letter-spacing: 1px;
 		text-align: center;
@@ -353,7 +353,7 @@ button.navbar-toggle:hover {
 .modal-body {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 24px;
 	letter-spacing: 1px;
 	text-align: left;
@@ -380,7 +380,7 @@ button.navbar-toggle:hover {
 	color: #666;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 24px;
 	letter-spacing: 1px;
 }
@@ -392,7 +392,7 @@ button.navbar-toggle:hover {
 	color: #666;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 24px;
 	letter-spacing: 1px;
 }
