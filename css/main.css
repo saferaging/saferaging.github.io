@@ -298,11 +298,11 @@ button.navbar-toggle:hover {
 	.body {
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-weight: 300;
-		font-size: 13px;
+		font-size: 14px;
 		line-height: 1.7;
 		letter-spacing: 1px;
 		text-align: center;
-		color: #8c989e;
+		color: #999;
 		padding-top: 15px;
 	}
 }
