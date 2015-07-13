@@ -42,7 +42,8 @@
 
 /*vertically centers the links, changes link font and color*/
 .navbar .nav > li > a {
-	color: #FFB300;
+/*	color: #FFB300;*/
+	color: #777;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 300;
@@ -118,7 +119,8 @@
 @media (max-width: 767px) {
 	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 		background-color: transparent;
-		color: #FFB300;
+		/*color: #FFB300;*/
+		color: #777;
 		text-decoration: underline;
 	}
 }
@@ -137,7 +139,8 @@
 /*mobile links*/
 @media (max-width: 767px) {
 	.navbar .nav > li > a {
-		color: #FFB300;
+		/*color: #FFB300;*/
+		color: #777;
 		font-size: 14px;
 		letter-spacing: 1px;
 		line-height: 22px;
@@ -145,7 +148,8 @@
 	}
 
 	.navbar .nav > li > a:hover {
-		color: #FFB300;
+		/*color: #FFB300;*/
+		color: #777;
 	}
 }
 
@@ -247,7 +251,8 @@ button.navbar-toggle:hover {
 /*header text desktop*/
 @media (min-width: 768px) {
 	h1 {
-		color: #FFB300;
+		/*color: #FFB300;*/
+		color: #777;
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-size: 30px;
 		font-weight: 300;
@@ -260,7 +265,8 @@ button.navbar-toggle:hover {
 /*header text mobile*/
 @media (max-width: 767px) {
 	h1 {
-		color: #FFB300;
+		/*color: #FFB300;*/
+		color: #777;
 		font-family: "Lato", "Helvetica", "Arial", sans-serif;
 		font-size: 20px;
 		font-weight: 300;
@@ -302,7 +308,8 @@ button.navbar-toggle:hover {
 }
 
 .body a {
-	color: #FFB300;
+	/*color: #FFB300;*/
+	color: #777;
 }
 
 
@@ -335,7 +342,8 @@ button.navbar-toggle:hover {
  */
 
 .modal-title {
-	color: #FFB300;
+	/*color: #FFB300;*/
+	color: #777;
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
@@ -380,7 +388,8 @@ button.navbar-toggle:hover {
 .btn-default:hover {
 	background-color: #fff;
 	border-color: #ccc;
-	color: #FFB300;
+	/*color: #FFB300;*/
+	color: #777;
 	font-family: "Roboto Slab", "Andale Mono", serif;
 	font-weight: 300;
 	font-size: 14px;
