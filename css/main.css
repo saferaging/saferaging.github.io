@@ -6,14 +6,14 @@
 @media (min-width: 768px) {
 	.navbar {
 		height: 75px;
-		background-color: #FFAB26;
+		background-color: #3c6c9c;
 	}
 }
 
 @media (max-width: 767px) {
 	.navbar {
 		height: 51px;
-		background-color: #FFAB26;
+		background-color: #3c6c9c;
 	}
 }
 
@@ -308,8 +308,39 @@ button.navbar-toggle:hover {
 }
 
 .body a {
-	color: #FFB300;
-/*	color: #666;*/
+	color: #4583bc;
+}
+
+/*storyboard text desktop*/
+@media (min-width: 1200px) {
+	.storyText {
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
+		font-weight: 300;
+		font-size: 1.4em;
+		line-height: 1.6em;
+		letter-spacing: 1px;
+		text-align: left;
+		color: #999;
+		padding-bottom: 50px;
+		padding-top: 30px;
+		vertical-align: middle;
+	}
+}
+
+
+/*storyboard text tablet and mobile*/
+@media (max-width: 1199px) {
+	.storyText {
+		font-family: "Lato", "Helvetica", "Arial", sans-serif;
+		font-weight: 300;
+		font-size: 1.4em;
+		line-height: 1.7;
+		letter-spacing: 1px;
+		text-align: center;
+		color: #999;
+		padding-top: 0px;
+		padding-bottom: 100px;
+	}
 }
 
 
@@ -365,7 +396,7 @@ button.navbar-toggle:hover {
 }
 
 .orange{
-	color: #FFB300;
+	color: #4583bc;
 	font-weight: 400;
 }
 
